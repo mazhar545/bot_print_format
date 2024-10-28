@@ -246,7 +246,8 @@ fixtures = [
 ]
 fixtures = [
     {
-        "doctype": "Custom Field",
-        "filters": [["dt", "in", ["Sales Invoice"]]]
+        "doctype": "DocType",
+        "filters": [["name", "=", "Sales Invoice"]]
     }
 ]
+
