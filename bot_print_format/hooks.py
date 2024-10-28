@@ -244,3 +244,9 @@ app_license = "mit"
 fixtures = [
     {"doctype": "Print Format", "filters": [["name", "=", "Bot Format J"]]}
 ]
+fixtures = [
+    {
+        "doctype": "Custom Field",
+        "filters": [["dt", "in", ["Sales Invoice"]]]
+    }
+]
