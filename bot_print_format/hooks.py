@@ -242,9 +242,7 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 fixtures = [
-    {"doctype": "Print Format", "filters": [["name", "=", "Bot Format J"]]}
-]
-fixtures = [
+    {"doctype": "Print Format", "filters": [["name", "in", ["Bot Format J", "Bot Format N"]]]},
     {
         "doctype": "DocType",
         "filters": [["name", "=", "Sales Invoice"]]
