@@ -1,5 +1,5 @@
 <div align="center" markdown="1">
-	<h2>BOT Subscription App</h2>
+	<h2>BOT Print Format App</h2>
 	<p align="center">
 	    <p>A Small Frappe App for BOT Solutions to print customize invoices</p>
 	</p>
@@ -17,7 +17,7 @@
 3. Open another terminal in bench directory, and run these commands
 
 	```
-	bench get-app subscription_app https://github.com/mazhar545/bot_print_format.git
+	bench get-app bot_print_format https://github.com/mazhar545/bot_print_format.git
 	bench --site frappe.test install-app bot_print_format
 	```
 
