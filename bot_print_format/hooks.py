@@ -248,6 +248,10 @@ fixtures = [
     {
         "doctype": "DocType",
         "filters": [["name", "=", "Sales Invoice"]]
+    },
+ {
+        "doctype": "DocType",
+        "filters": [["name", "=", "Company"]]
     }
       
 ]
